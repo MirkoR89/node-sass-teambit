@@ -1,0 +1,38 @@
+header {
+    nav {
+        height: 80px;
+        border-bottom: 1px solid $text-pri-color;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            a {
+                text-decoration: none;
+                font-weight: 700;
+
+                &:visited {
+                    color: $text-pri-color;
+                }
+            }
+
+             
+
+
+
+            i {
+                margin-left: 5px;
+            }
+
+            img {
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+
+        button {
+            @include white-btn
+        }
+    }
+}
