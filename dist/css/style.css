@@ -380,7 +380,7 @@ header .jumbotron .jumbo_button button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #2b4791;
+  background-color: #912b2c;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -404,7 +404,7 @@ header .jumbotron .jumbo_image img {
 }
 
 .section_pink {
-  background-color: #ffe7d1;
+  background-color: #92c7cf;
 }
 
 .section_pink .s_pink_title {
