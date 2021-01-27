@@ -9,6 +9,13 @@ body {
   display: flex;
 }
 
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .justify-content-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -394,5 +401,47 @@ header .jumbotron p i {
 
 header .jumbotron .jumbo_image img {
   width: 585px;
+}
+
+.section_pink {
+  background-color: #ffe7d1;
+}
+
+.section_pink .s_pink_title {
+  height: 100px;
+  margin: 70px 0;
+}
+
+.section_pink .s_pink_title h2 {
+  font-size: 30px;
+  width: 600px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.section_pink .s_pink_img img {
+  height: 150px;
+}
+
+.section_pink .s_pink_img p {
+  margin: 50px 0;
+}
+
+.section_pink .s_pink_rabbit {
+  height: 500px;
+  border-bottom: 1px solid #5b4028;
+  margin-bottom: 50px;
+}
+
+.section_pink .s_pink_rabbit img {
+  height: 300px;
+}
+
+.section_pink #blue_rabbit {
+  border: none;
+}
+
+.section_pink #blue_rabbit h2 {
+  margin-top: 100px;
 }
 /*# sourceMappingURL=style.css.map */

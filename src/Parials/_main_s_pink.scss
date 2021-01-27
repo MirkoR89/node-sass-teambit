@@ -1,0 +1,45 @@
+.section_pink {
+    background-color: $bg-pri-color;
+
+    .s_pink_title {
+        height: 100px;
+        margin: 70px 0;
+
+        h2 {
+            font-size: 30px;
+            width: 600px;
+            text-align: center;
+            line-height: 50px;
+        }
+    }
+
+    .s_pink_img {
+        img {
+            height: 150px;
+        }
+
+        p {
+            margin: 50px 0;
+        }
+    }
+
+    .s_pink_rabbit {
+        height: 500px;
+        border-bottom: 1px solid $text-pri-color;
+        margin-bottom: 50px;
+
+
+        img {
+            height: 300px;
+        }
+    }
+
+    #blue_rabbit {
+        border: none;
+
+        h2 {
+            margin-top: 100px;
+        }
+
+    }
+}
