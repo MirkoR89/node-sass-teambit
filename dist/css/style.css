@@ -341,4 +341,58 @@ header ul button {
   padding: 8px;
   font-weight: 700;
 }
+
+header .jumbotron {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header .jumbotron .jumbo_title h1 {
+  font-size: 50px;
+  line-height: 90px;
+}
+
+header .jumbotron .jumbo_title p {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+header .jumbotron .jumbo_button {
+  margin-top: 50px;
+}
+
+header .jumbotron .jumbo_button span {
+  margin: 0 10px;
+}
+
+header .jumbotron .jumbo_button button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2b4791;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+header .jumbotron .jumbo_button button img {
+  height: 20px;
+}
+
+header .jumbotron p {
+  margin-top: 20px;
+}
+
+header .jumbotron p i {
+  margin-left: 5px;
+}
+
+header .jumbotron .jumbo_image img {
+  width: 585px;
+}
 /*# sourceMappingURL=style.css.map */

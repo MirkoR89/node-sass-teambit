@@ -1,4 +1,5 @@
 header {
+
     nav {
         height: 80px;
         border-bottom: 1px solid $text-pri-color;
@@ -17,10 +18,6 @@ header {
                 }
             }
 
-             
-
-
-
             i {
                 margin-left: 5px;
             }
@@ -34,5 +31,55 @@ header {
         button {
             @include white-btn
         }
+    }
+
+    .jumbotron {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+
+        .jumbo_title {
+            h1 {
+                font-size: 50px;
+                line-height: 90px;
+            }
+
+            p {
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 40px;
+            }
+
+        }
+
+        .jumbo_button {
+            margin-top: 50px;
+
+            span {
+                margin: 0 10px;
+            }
+
+
+            button {
+                @include blue-btn img {
+                    height: 20px;
+                }
+            }
+        }
+
+        p {
+            margin-top: 20px;
+
+            i {
+                margin-left: 5px;
+            }
+        }
+
+        .jumbo_image {
+            img {
+                width: 585px;
+            }
+        }
+
     }
 }
